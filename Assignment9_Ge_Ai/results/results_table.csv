@@ -1,0 +1,4 @@
+Latent Dimension,Compression Ratio,Reconstruction Error,Reconstruction Quality,Denoising Observation
+2,392:1,0.0425080880522728,Baseline latent dimension; rank 3/3 by MSE,Denoised MSE 0.075778; not reduced vs noisy MSE 0.061824
+16,49:1,0.014387565664947033,Improved over previous dimension; rank 2/3 by MSE,Denoised MSE 0.055135; reduced vs noisy MSE 0.061824
+32,24.5:1,0.010657154954969883,Improved over previous dimension; rank 1/3 by MSE,Denoised MSE 0.044593; reduced vs noisy MSE 0.061824
